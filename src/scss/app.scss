@@ -1,0 +1,55 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import 'animate.css';
+@import 'github-markdown-css/github-markdown-light';
+
+body {
+    @apply bg-white;
+}
+
+a {
+    @apply text-neutral-500;
+    &:hover {
+        @apply text-primary-500;
+    }
+
+    &.active {
+        @apply text-primary-500;
+    }
+}
+
+.pagination {
+    @apply pt-8;
+    ul {
+        @apply list-none;
+        @apply flex;
+        @apply justify-between;
+        li {
+            @apply px-2;
+            @apply py-1;
+            @apply border;
+            @apply border-neutral-200;
+            @apply rounded;
+        }
+    }
+}
+
+.themes_banner {
+    background-image: url("/images/themes_bg.svg");
+}
+
+.about_banner {
+    background-image: url("/images/about_bg.png");
+}
+
+.markdown-body {
+    figure {
+        margin: 0;
+    }
+}
