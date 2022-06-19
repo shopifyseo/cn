@@ -1,10 +1,12 @@
-- title: Home
+- title: 首页
   url: /
-- title: Themes
+- title: 主题
   url: /themes.html
-- title: Plugins
+- title: 插件 & 应用
   url: /plugins.html
-- title: Blog
+- title: 客户案例
+  url: /cases.html
+- title: 博客
   url: /blog/
-- title: About
+- title: 关于我们
   url: /about.html
