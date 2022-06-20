@@ -28,13 +28,13 @@
       url: /blog/welcome
     - title: 8
       url: /blog/welcome
-- title: About
+- title: 关于
   links:
-    - title: About
-      url: /blog/welcome
-    - title: Privacy Policy
+    - title: 关于我们
+      url: /about.html
+    - title: 隐私政策
       url: /privacy-policy
-    - title: Sitemap
+    - title: 站点地图
       url: /sitemap.xml
     - title: RSS
       url: /feed.xml
